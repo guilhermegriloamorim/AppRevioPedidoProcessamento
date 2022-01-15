@@ -1,0 +1,39 @@
+@page "/Teste/{parametro?}/{id:guid?}"
+@using Microsoft.Extensions.Configuration
+@inject IConfiguration Configuration
+
+<PageTitle>Teste</PageTitle>
+
+<h1>Teste</h1>
+<p>O Id é: @Id</p>
+<p>O Parametro é: @Parametro</p>
+<p>Oi! Eu sou o  @Configuration["nome"]</p>
+
+<div class="col-3">
+    <TextBox @ref="_textBox"/>
+    <br>
+    <button class="form-control" onclick="@ShowMessageNoDom">Show Message no DOM</button>
+</div>
+
+@code {
+
+    public TextBox _textBox;
+
+    [Parameter]
+    public Guid? Id { get; set; }
+  
+    [Parameter]
+    public string? Parametro { get; set; }
+
+    protected override void OnInitialized()
+    {
+        Parametro = Parametro ?? "Parametro vazio";
+        Id = Id ?? Guid.NewGuid();  
+    }
+
+    public void ShowMessageNoDom()
+    {
+        _textBox.ShowMessage("Olá Mundo digite algo:");
+    }
+
+}
