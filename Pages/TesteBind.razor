@@ -1,0 +1,100 @@
+@page "/Bind"
+@using AppRevioPedidoProcessamento.Model;
+
+<h1>@Person.Name</h1>
+<br />
+<div>
+    <b>On Change:</b>
+    <input type="text" class="form-control" @bind="Person.Name" />
+</div>
+<br />
+<div>
+    <b>On Input:</b>
+    <input type="text" class="form-control" @bind-value="Person.Name" @bind-value:event="oninput" />
+</div>
+<br />
+
+<div class="row"> 
+    <div class="col-2">
+        <b>Mause Events:</b>
+    </div>
+    <div class="col-6">
+        <button class="btn btn-secondary btn-sm btn-block" @onclick="OnMouseClickEvent"
+            @ondblclick="OnMouseDoubleClickEvent" @onmousedown="OnMouseDownEvent" @onmouseup="OnMouseUpEvent"
+            @onmouseover="OnMouseOverEvent" @onmouseout="OnMouseOutEvent">
+            Button
+        </button>
+    </div>
+</div>
+<div class="row">
+    <p>
+        <strong>Evento:</strong> @Message
+    </p>
+</div>
+
+@code {
+    public Person Person { get; set; } = new Person(1, "Guilherme");
+
+    public string Message { get; set; } = "Não existe Evento Capturado";
+
+    public void OnMouseClickEvent()
+    {
+        Message = "Click";
+    }
+
+    public void OnMouseDoubleClickEvent()
+    {
+        Message = "Double Click";
+    }
+
+    public void OnMouseUpEvent()
+    {
+        Message = "Up";
+    }
+
+    public void OnMouseDownEvent()
+    {
+        Message = "Down";
+    }
+
+    public void OnMouseOverEvent()
+    {
+        Message = "Over";
+    }
+    public void OnMouseOutEvent()
+    {
+        Message = "Out";
+    }
+
+    public void OnMouseMoveEvent()
+    {
+        Message = "Move";
+    }
+
+    public void OnMouseEvent(MouseEventArgs e)
+    {
+        switch (e.Type)
+        {
+            case "click":
+                Message = "Mouse Click";
+                break;
+            case "dblclick":
+                Message = "Mouse Duplo Click";
+                break;
+            case "mouseup":
+                Message = "Mouse Up";
+                break;
+            case "mousedown":
+                Message = "Mouse Down";
+                break;
+            case "over":
+                Message = "Mause Over";
+                break;
+            case "mouseout":
+                Message = "Mouse Out";
+                break;
+        }
+        StateHasChanged();
+    }
+
+}

@@ -1,29 +1,23 @@
+<input type="text" name="@Name" @bind="Message" @attributes="DefautAttributes">
 
-@if (Message != null)
-{
-    <p>@Message</p>
-}
-<input type="text" name="@Name" @attributes="DefautAttributes">
-
-@code{
+@code {
 
     [Parameter]
     public string Name { get; set; }
-
     private string Message { get; set; }
 
     public Dictionary<string, object> DefautAttributes { get; set; } =
-        new Dictionary<string, object> ()
-            {
-                { "maxlength", "10" },
-                { "placeholder", "Digite um Valor" },
-                { "size", 10},
-                { "class",  "form-control"}
-            };
-
-    public void ShowMessage(string value)
+    new Dictionary<string, object>()
     {
-        Message = value;
-        StateHasChanged();
+        { "maxlength", "80" },
+        { "placeholder", "Digite um Valor" },
+        { "class", "form-control"}
+    };
+
+    public string ShowMessage()
+    {
+        if (string.IsNullOrEmpty(Message))
+            return null;
+        return $"A messangem foi {Message}";
     }
 }

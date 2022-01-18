@@ -8,61 +8,65 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = AppRevioPedidoProcessamento
 build_property.RootNamespace = AppRevioPedidoProcessamento
-build_property.ProjectDir = c:\Users\Guilherme\AppRevioPedidoProcessamento\
+build_property.ProjectDir = C:\Users\Guilherme\AppRevioPedidoProcessamento\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = c:\Users\Guilherme\AppRevioPedidoProcessamento
+build_property.MSBuildProjectDirectory = C:\Users\Guilherme\AppRevioPedidoProcessamento
 build_property._RazorSourceGeneratorDebug = 
 
-[c:/Users/Guilherme/AppRevioPedidoProcessamento/App.razor]
+[C:/Users/Guilherme/AppRevioPedidoProcessamento/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Guilherme/AppRevioPedidoProcessamento/Pages/Counter.razor]
+[C:/Users/Guilherme/AppRevioPedidoProcessamento/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Guilherme/AppRevioPedidoProcessamento/Pages/FetchData.razor]
+[C:/Users/Guilherme/AppRevioPedidoProcessamento/Pages/FetchData.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Guilherme/AppRevioPedidoProcessamento/Pages/Index.razor]
+[C:/Users/Guilherme/AppRevioPedidoProcessamento/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Guilherme/AppRevioPedidoProcessamento/Pages/Teste.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGVzdGUucmF6b3I=
+[C:/Users/Guilherme/AppRevioPedidoProcessamento/Pages/TesteBind.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGVzdGVCaW5kLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Guilherme/AppRevioPedidoProcessamento/Shared/SurveyPrompt.razor]
+[C:/Users/Guilherme/AppRevioPedidoProcessamento/Pages/TestePage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGVzdGVQYWdlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Guilherme/AppRevioPedidoProcessamento/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Guilherme/AppRevioPedidoProcessamento/Shared/TextBox.razor]
+[C:/Users/Guilherme/AppRevioPedidoProcessamento/Shared/TextBox.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFRleHRCb3gucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Guilherme/AppRevioPedidoProcessamento/_Imports.razor]
+[C:/Users/Guilherme/AppRevioPedidoProcessamento/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Guilherme/AppRevioPedidoProcessamento/Shared/MainLayout.razor]
+[C:/Users/Guilherme/AppRevioPedidoProcessamento/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-r0y83zy6oj
 
-[c:/Users/Guilherme/AppRevioPedidoProcessamento/Shared/NavMenu.razor]
+[C:/Users/Guilherme/AppRevioPedidoProcessamento/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-i2rqob51x7
 
-[c:/Users/Guilherme/AppRevioPedidoProcessamento/Pages/Error.cshtml]
+[C:/Users/Guilherme/AppRevioPedidoProcessamento/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Guilherme/AppRevioPedidoProcessamento/Pages/_Host.cshtml]
+[C:/Users/Guilherme/AppRevioPedidoProcessamento/Pages/_Host.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Guilherme/AppRevioPedidoProcessamento/Pages/_Layout.cshtml]
+[C:/Users/Guilherme/AppRevioPedidoProcessamento/Pages/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0xheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

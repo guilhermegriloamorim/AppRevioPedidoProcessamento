@@ -111,14 +111,14 @@
         }
       },
       {
-        "HashCode": -642400303,
+        "HashCode": -1962916383,
         "Kind": "Components.Component",
-        "Name": "AppRevioPedidoProcessamento.Pages.Teste",
+        "Name": "AppRevioPedidoProcessamento.Pages.TestePage",
         "AssemblyName": "AppRevioPedidoProcessamento",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Teste"
+            "TagName": "TestePage"
           }
         ],
         "BoundAttributes": [
@@ -141,18 +141,18 @@
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "AppRevioPedidoProcessamento.Pages.Teste"
+          "Common.TypeName": "AppRevioPedidoProcessamento.Pages.TestePage"
         }
       },
       {
-        "HashCode": -810646778,
+        "HashCode": 1605013002,
         "Kind": "Components.Component",
-        "Name": "AppRevioPedidoProcessamento.Pages.Teste",
+        "Name": "AppRevioPedidoProcessamento.Pages.TestePage",
         "AssemblyName": "AppRevioPedidoProcessamento",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "AppRevioPedidoProcessamento.Pages.Teste"
+            "TagName": "AppRevioPedidoProcessamento.Pages.TestePage"
           }
         ],
         "BoundAttributes": [
@@ -175,7 +175,40 @@
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "AppRevioPedidoProcessamento.Pages.Teste",
+          "Common.TypeName": "AppRevioPedidoProcessamento.Pages.TestePage",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -1603348676,
+        "Kind": "Components.Component",
+        "Name": "AppRevioPedidoProcessamento.Pages.TesteBind",
+        "AssemblyName": "AppRevioPedidoProcessamento",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "TesteBind"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "AppRevioPedidoProcessamento.Pages.TesteBind"
+        }
+      },
+      {
+        "HashCode": 667929910,
+        "Kind": "Components.Component",
+        "Name": "AppRevioPedidoProcessamento.Pages.TesteBind",
+        "AssemblyName": "AppRevioPedidoProcessamento",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "AppRevioPedidoProcessamento.Pages.TesteBind"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "AppRevioPedidoProcessamento.Pages.TesteBind",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -16734,8 +16767,18 @@
   "RootNamespace": "AppRevioPedidoProcessamento",
   "Documents": [
     {
+      "FilePath": "c:\\Users\\Guilherme\\AppRevioPedidoProcessamento\\Pages\\TesteBind.razor",
+      "TargetPath": "Pages\\TesteBind.razor",
+      "FileKind": "component"
+    },
+    {
       "FilePath": "c:\\Users\\Guilherme\\AppRevioPedidoProcessamento\\Shared\\MainLayout.razor",
       "TargetPath": "Shared\\MainLayout.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\Guilherme\\AppRevioPedidoProcessamento\\Pages\\TestePage.razor",
+      "TargetPath": "Pages\\TestePage.razor",
       "FileKind": "component"
     },
     {
@@ -16771,11 +16814,6 @@
     {
       "FilePath": "c:\\Users\\Guilherme\\AppRevioPedidoProcessamento\\Pages\\Index.razor",
       "TargetPath": "Pages\\Index.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Users\\Guilherme\\AppRevioPedidoProcessamento\\Pages\\Teste.razor",
-      "TargetPath": "Pages\\Teste.razor",
       "FileKind": "component"
     },
     {

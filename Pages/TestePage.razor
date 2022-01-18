@@ -1,0 +1,55 @@
+@page "/Teste/"
+@page "/TestePage/{parametro?}/{id:guid?}"
+@using Microsoft.Extensions.Configuration
+@inject IConfiguration Configuration
+
+<PageTitle>Pagina de Teste</PageTitle>
+<h1>Pagina de Testes</h1>
+<br />
+<div class="row alert alert-secondary">
+    <h2 class="h4">Coletando informação do Arquivo de Configuração</h2>
+    <p>@Configuration["KeyConfig"]</p>
+</div>
+<br />
+<div class="row">
+    <h2 class="h4">Trabalhando com parametros na Url</h2>
+    <p>O Id é: <strong>@Id</strong></p>
+    <p>O Parametro é: @Parametro</p>
+</div>
+<br />
+<div class="row col-6">
+    <h2 class="h4">Trabalhando com Eventos Componete Filho</h2>
+    <TextBox @ref="_textBox" />
+    @if (_textBoxValue != null)
+    {
+        <p>@_textBoxValue</p>
+    }
+</div>
+<br />
+<div class="row col-3">
+    <button class="form-control btn btn-secondary" onclick="@ShowMessageNoDom">Show Message no DOM</button>
+</div>
+
+@code {
+
+    [Parameter]
+    public Guid? Id { get; set; }
+
+    [Parameter]
+    public string? Parametro { get; set; }
+
+    private string _textBoxValue;
+    public TextBox _textBox { get; set; }
+
+    protected override void OnInitialized()
+    {
+        Parametro = Parametro ?? "O Parametro é vazio no inicio";
+        Id = Id ?? Guid.NewGuid();
+    }
+
+    public void ShowMessageNoDom()
+    {
+        _textBoxValue = _textBox.ShowMessage();
+        StateHasChanged();
+    }
+}
